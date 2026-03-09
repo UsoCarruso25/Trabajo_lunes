@@ -1,0 +1,119 @@
+@@ -0,0 +1,118 @@
+/* ===== TV Y HOGAR PAGE ===== */
+.tv-page { background: #fff; }
+
+/* Hero */
+.tv-hero { text-align: center; padding: 80px 40px 60px; }
+.tv-hero h1 { font-size: 56px; font-weight: 700; margin-bottom: 12px; }
+.tv-hero h2 { font-size: 24px; font-weight: 400; }
+
+/* Productos */
+.tv-products { padding: 60px 40px; }
+
+.category-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+.category-tab {
+  padding: 10px 24px;
+  border: 1.5px solid #d2d2d7;
+  background: #fff;
+  border-radius: 980px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.category-tab.active {
+  background: #1d1d1f;
+  color: #fff;
+  border-color: #1d1d1f;
+}
+
+.tv-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.tv-card {
+  background: #f5f5f7;
+  border-radius: 18px;
+  padding: 24px 16px;
+  text-align: center;
+  width: 210px;
+  cursor: pointer;
+  transition: all 0.2s;
+  position: relative;
+  border: 2px solid transparent;
+}
+.tv-card:hover    { transform: translateY(-4px); }
+.tv-card.selected { border-color: #0071e3; }
+
+.tv-tag {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: #ff3b30;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 5px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.tv-category-badge {
+  display: inline-block;
+  background: #e8e8ed;
+  color: #6e6e73;
+  padding: 2px 10px;
+  border-radius: 5px;
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+
+.tv-emoji         { font-size: 56px; margin-bottom: 10px; }
+.tv-card h3       { font-size: 14px; font-weight: 600; margin-bottom: 4px; }
+.tv-price         { color: #6e6e73; font-size: 13px; }
+
+/* Detalle del producto seleccionado */
+.tv-detail {
+  max-width: 560px;
+  margin: 0 auto;
+  background: #1d1d1f;
+  border-radius: 18px;
+  padding: 36px;
+  color: #f5f5f7;
+}
+.tv-detail h3      { font-size: 22px; margin-bottom: 10px; }
+.tv-detail > p     { color: #86868b; margin-bottom: 16px; font-size: 15px; }
+.tv-features       { list-style: none; margin-bottom: 16px; }
+.tv-features li    { color: #a1a1a6; padding: 4px 0; font-size: 14px; }
+.detail-price      { font-size: 18px; font-weight: 600; color: #f5f5f7 !important; margin-bottom: 20px; }
+
+/* Apple TV+ */
+.appletv-plus { padding: 80px 40px; background: #000; }
+.appletv-plus .section-title { color: #f5f5f7; }
+
+.shows-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.show-card {
+  background: #1d1d1f;
+  border-radius: 16px;
+  padding: 24px 20px;
+  text-align: center;
+  width: 150px;
+  color: #f5f5f7;
+}
+.show-emoji  { font-size: 40px; display: block; margin-bottom: 10px; }
+.show-card h4 { font-size: 14px; font-weight: 600; margin-bottom: 4px; }
+.show-card p  { font-size: 12px; color: #86868b; }
