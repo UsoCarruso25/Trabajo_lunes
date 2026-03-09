@@ -1,0 +1,50 @@
+/* ===== NAVBAR ===== */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  height: 48px;
+  background: rgba(29, 29, 31, 0.85);
+  backdrop-filter: saturate(180%) blur(20px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  padding: 0 16px;
+}
+
+.navbar-logo {
+  color: #f5f5f7;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+  gap: 4px;
+}
+
+.nav-btn {
+  background: transparent;
+  border: none;
+  color: #f5f5f7;
+  font-size: 13px;
+  padding: 4px 10px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.15s ease;
+  opacity: 0.85;
+}
+.nav-btn:hover {
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.1);
+}
+.nav-btn.active {
+  opacity: 1;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.15);
+}
